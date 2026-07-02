@@ -1,5 +1,5 @@
 # PMP-DACIS: Plant Disease Detection via Pruned Meta-Learning
-
+[![arXiv](https://img.shields.io/badge/arXiv-2601.02353-b31b1b.svg)](https://doi.org/10.48550/arXiv.2601.02353) <br>
 **PMP-DACIS** (Pruned Meta-Learning with Disease-Aware Channel Importance Scoring) is a few-shot learning framework for plant disease classification. It uses a **ResNet-18** backbone (pre-trained on ImageNet via `torchvision.models`) and applies structured channel pruning with DACIS scoring to create compact models that can classify plant diseases from just 1-5 examples per class.
 
 ## Model Architecture
